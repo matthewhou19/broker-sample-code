@@ -1,16 +1,29 @@
-# broker-sample-code
 
-Restful API sample code for a client
+# Broker Sample Code
 
-## Features
+## Restful API Sample Code for a Client
 
-1. validate the url parameters in CustomerService
-2. validate the other form informations via CustomRequest class
-3. use H2 database to simulate the production database, add simulation data
+### Implemented Features
 
-## Features waiting for implementing
+1. **URL Parameter Validation in CustomerService**
+   * Ensures all URL parameters are valid.
+2. **Form Information Validation via CustomRequest Class**
+   * Validates additional form data.
+3. **H2 Database for Simulating Production Database**
+   * Uses H2 database to mimic a production environment.
+   * Adds simulation data for testing purposes.
+4. **Data Filtering from H2 Database**
+   * Filters data retrieved from the H2 database.
+5. **Data Submission via Endpoints**
+   * Allows data to be submitted through defined endpoints.
 
-1. Detailed massages for parameter bad requests
-2. User credential validation
-3. Data send back by page to reduce the response rate
-4. return data should filter by other information(pickup date...)
+### Features Pending Implementation
+
+1. **Detailed Error Messages for Bad Requests**
+   * Provide comprehensive error messages for invalid parameters.
+2. **User Credential Validation**
+   * Validate user credentials for authentication.
+3. **Paginated Data Responses**
+   * Implement pagination to reduce response times.
+4. **Enhanced Data Filtering**
+   * Filter returned data by additional criteria such as pickup date, etc.
