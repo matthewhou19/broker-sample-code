@@ -29,9 +29,6 @@ public class Controller {
         if (!customerService.validateInput(Zip, originState, destinationZip, destinationState, originRadius, destinationRadius, customerRequest)) {
             return ResponseEntity.badRequest().body(Collections.emptyList());
         }
-        System.out.println(customerResponseRepository.findAll());
-        //return ResponseEntity.ok(customerResponseRepository.findAll());
-        System.out.println(customerService.filterResponseData(Zip, originState, destinationZip, destinationState));
         return ResponseEntity.ok(customerService.filterResponseData(Zip, originState, destinationZip, destinationState));
     }
 }

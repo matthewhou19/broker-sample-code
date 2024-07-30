@@ -1,0 +1,202 @@
+{
+	"info": {
+		"_postman_id": "c6e9d5ca-5700-4f44-b18a-9d719f78a0bc",
+		"name": "code sample",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json",
+		"_exporter_id": "23679482"
+	},
+	"item": [
+		{
+			"name": "orginZip & destState",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"pickupDate\" :\"2024-7-9\",\r\n    \"vehicles\" : \"3\",\r\n    \"pricePerSpace\" : \"500\",\r\n    \"options\" : [\"Private\", \"Operable\"]\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:8080/customers?Zip=90272&originRadius=FIFTY_MILES&destinationZip=76107 &destinationRadius=THIRTY_MILES ",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"customers"
+					],
+					"query": [
+						{
+							"key": "Zip",
+							"value": "90272"
+						},
+						{
+							"key": "originRadius",
+							"value": "FIFTY_MILES"
+						},
+						{
+							"key": "destinationZip",
+							"value": "76107 "
+						},
+						{
+							"key": "destinationRadius",
+							"value": "THIRTY_MILES "
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "originZip & destZip",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"pickupDate\" :\"2024-7-9\",\r\n    \"vehicles\" : \"3\",\r\n    \"pricePerSpace\" : \"500\",\r\n    \"options\" : [\"Private\", \"Operable\"]\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:8080/customers?Zip=90272&originRadius=FIFTY_MILES&destinationZip=76107 &destinationRadius=THIRTY_MILES ",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"customers"
+					],
+					"query": [
+						{
+							"key": "Zip",
+							"value": "90272"
+						},
+						{
+							"key": "originRadius",
+							"value": "FIFTY_MILES"
+						},
+						{
+							"key": "destinationZip",
+							"value": "76107 "
+						},
+						{
+							"key": "destinationRadius",
+							"value": "THIRTY_MILES "
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "originState & destZip",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"pickupDate\" :\"2024-7-9\",\r\n    \"vehicles\" : \"3\",\r\n    \"pricePerSpace\" : \"500\",\r\n    \"options\" : [\"Private\", \"Operable\"]\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:8080/customers?Zip=90272&originRadius=FIFTY_MILES&destinationZip=76107 &destinationRadius=THIRTY_MILES ",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"customers"
+					],
+					"query": [
+						{
+							"key": "Zip",
+							"value": "90272"
+						},
+						{
+							"key": "originRadius",
+							"value": "FIFTY_MILES"
+						},
+						{
+							"key": "destinationZip",
+							"value": "76107 "
+						},
+						{
+							"key": "destinationRadius",
+							"value": "THIRTY_MILES "
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "originState & destState",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"pickupDate\" :\"2024-7-9\",\r\n    \"vehicles\" : \"3\",\r\n    \"pricePerSpace\" : \"500\",\r\n    \"options\" : [\"Private\", \"Operable\"]\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:8080/customers?Zip=90272&originRadius=FIFTY_MILES&destinationZip=76107 &destinationRadius=THIRTY_MILES ",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"customers"
+					],
+					"query": [
+						{
+							"key": "Zip",
+							"value": "90272"
+						},
+						{
+							"key": "originRadius",
+							"value": "FIFTY_MILES"
+						},
+						{
+							"key": "destinationZip",
+							"value": "76107 "
+						},
+						{
+							"key": "destinationRadius",
+							"value": "THIRTY_MILES "
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
